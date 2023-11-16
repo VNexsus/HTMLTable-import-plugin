@@ -157,14 +157,14 @@
 		var nodes = doc.getElementsByTagName("*");
 		for(i = 0; i < nodes.length; i++){
 			switch(nodes[i].nodeName){
-				case "P":
+				/*case "P":
 				case "SPAN":
 				case "DIV":
 					var oCell = oWorksheet.GetRangeByNumber(currentrow, currentcol);
 					oCell.SetValue(nodes[i].innerText);
 					border = false;
 					currentrow++;
-					break;
+					break;*/
 				case "TABLE":
 					if(nodes[i].border && nodes[i].border != "")
 						border = true;
